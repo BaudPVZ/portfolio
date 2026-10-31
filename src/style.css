@@ -1,0 +1,129 @@
+body{
+  background: #0d0d0f;
+}
+
+.profile {
+  background-color: #1a1a21;
+  border: 1px solid #2a2a35;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 420px;
+  margin: 0 auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.profile__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4f46e5;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.profile__name {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.profile__description {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+/* Me.css */
+.profile {
+  background-color: #1a1a21;
+  border: 1px solid #2a2a35;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 420px;
+  margin: 0 auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.profile__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4f46e5;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.profile__name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.profile__description {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Examples.css */
+.examples {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 равные колонки на всю ширину */
+  gap: 24px;
+  width: 100%;    
+  margin-top: 40px; 
+                         /* растягиваем сетку на всю ширину родителя */
+}
+
+.example-card {
+  background-color: #1a1a21;
+  border: 1px solid #2a2a35;
+  border-radius: 16px;
+  padding: 16px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.example-card:hover {
+  transform: translateY(-4px);
+  border-color: #4f46e5;
+}
+
+.example__image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #2a2a35;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.example__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e8e8e8;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+@media (max-width: 900px) {
+  .examples {
+    grid-template-columns: 1fr; /* одна колонка на всю ширину */
+  }
+}
