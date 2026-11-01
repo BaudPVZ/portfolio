@@ -5,7 +5,7 @@ import "./style.css";
 
 export default function app() {
 
-  const [name, setName] = useState("илья");
+  const [name, setName] = useState("имя");
   const [discription, setDiscription] = useState("что-то очень интересное");
   const [image, setImage] = useState("./assets./profile.png");
 
