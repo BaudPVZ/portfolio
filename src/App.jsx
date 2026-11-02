@@ -2,6 +2,7 @@ import Examples from "./Examples";
 import Me from "./Me";
 import { useState } from "react";
 import "./style.css";
+import Bottom from "./Bottom";
 
 export default function app() {
 
@@ -23,6 +24,7 @@ export default function app() {
       image={image}
       ></Me>
       <Examples></Examples>
+      <Bottom></Bottom>
     </div>
   )
 }
