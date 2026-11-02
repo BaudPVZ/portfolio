@@ -132,7 +132,6 @@ body{
 .bottom__card-part{
     color: #e8e8e8;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     text-decoration: none;
 }
