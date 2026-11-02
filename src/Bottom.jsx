@@ -1,14 +1,16 @@
+import "./style.css"
+
 export default function Bottom (){
 return (
-<div>
-   <div>
-      <p>8 999 111 11 11</p>
-      <p></p>
+<div className="bottom">
+   <div className="bottom__card">
+      <p className="bottom__card-part">8 999 111 11 11</p>
+      <p className="bottom__card-part">почта</p>
    </div>
    <div >
-      <p>телеграм</p>
-      <p>вк</p>
-      <p>дискорд</p>
+      <p className="bottom__card-part">телеграм</p>
+      <p className="bottom__card-part">вк</p>
+      <p className="bottom__card-part">дискорд</p>
    </div>
 </div>)
 }
