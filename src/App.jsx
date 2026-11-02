@@ -2,7 +2,7 @@ import Examples from "./Examples";
 import Me from "./Me";
 import { useState } from "react";
 import "./style.css";
-import Bottom from "./Bottom";
+import Bottom from "./Bottom.jsx";
 
 export default function app() {
 
