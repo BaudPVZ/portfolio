@@ -123,11 +123,16 @@ body{
   font-optical-sizing: auto;
 }
 
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 .bottom__card-part{
     color: #e8e8e8;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    
 }
 
 
