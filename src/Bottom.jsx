@@ -4,7 +4,7 @@ export default function Bottom (){
 return (
 <div className="bottom">
    <div className="bottom__card">
-      <p className="bottom__card-part">8 999 111 11 11</p>
+      <p className="bottom__card-part" href="tel:89684979821">8 999 111 11 11</p>
       <p className="bottom__card-part">почта</p>
    </div>
    <div >
