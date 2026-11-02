@@ -122,6 +122,14 @@ body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+
+bottom__card-part{
+    color: #e8e8e8;
+}
+
+
+
 @media (max-width: 900px) {
   .examples {
     grid-template-columns: 1fr; /* одна колонка на всю ширину */
