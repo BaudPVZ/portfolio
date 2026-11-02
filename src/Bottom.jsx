@@ -5,12 +5,12 @@ return (
 <div className="bottom">
    <div className="bottom__card">
       <a href="tel:+79684979821" className="bottom__card-part">8 999 111 11 11</a>
-      <p className="bottom__card-part">почта</p>
+      <a className="bottom__card-part">почта</a>
    </div>
-   <div >
-      <p className="bottom__card-part">телеграм</p>
-      <p className="bottom__card-part">вк</p>
-      <p className="bottom__card-part">дискорд</p>
+   <div className="bottom__card">
+      <a className="bottom__card-part">телеграм</p>
+      <a className="bottom__card-part">вк</p>
+      <a className="bottom__card-part">дискорд</a>
    </div>
 </div>)
 }
